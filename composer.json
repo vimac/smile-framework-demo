@@ -1,0 +1,24 @@
+{
+    "name": "vimac/smile-framework-demo",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/vimac/smile-framework.git"
+        }
+	],
+    "authors": [
+        {
+            "name": "Mac Chow",
+            "email": "vifix.mac@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SmileDemo\\" : "src"
+        }
+    },
+    "require": {
+        "vimac/smile-framework": "dev-master"
+    },
+    "minimum-stability": "dev"
+}
